@@ -103,14 +103,14 @@
 ---
 <br/>
 
-# Projekt 6: 3D modeliranje i animiranje viteza i oružja
-* Dizajn viteza, mača i štita
+# Projekt 6: 3D modeliranje i animiranje low poly viteza i oružja
+* Dizajn low poly viteza, mača i štita
 * Modeliranje viteza, mača i štita u Blenderu
 * Animiranje viteza kombinacijom Blendera i Mixamo-a
 * Importanje tih asseta u Unity i njihovo korištenje
 
-# Project 6: 3D modeling and animating a knight and weapons
-* Design of the knight, shield and sword 
+# Project 6: 3D modeling and animating a low poly knight and weapons
+* Design of the low poly knight, shield and sword 
 * Modeling the knight, shield and sword in Blender
 * Animating the knight with Blender and Mixamo
 * Importing it all to Unity 
