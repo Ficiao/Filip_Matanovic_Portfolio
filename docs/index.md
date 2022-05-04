@@ -5,11 +5,11 @@
 * Sve mehanike su implementirane po službenim tetris standardima
 * Trenutno u izradi online multiplayer verzija preko dedicated servera za lobby-e do 9 igrača, kao i pisanje custom dedicated servera preko TCP i UDP socketa
 
-# [Project 1: Two player tetris](https://github.com/Ficiao/Tetris2P)
+# [Project 1: Two player Tetris](https://github.com/Ficiao/Tetris2P)
 * Created a local 2 player Tetris game in Unity
 * Necessary assets were made in Aseprite
 * All game mechanics were implemented according to Tetris official standards
-* Currently in development: online multiplayer version of the game for lobbys of up to 9 players over dedicated server, as well as writing the costume dedicated server using TCP and UDP sockets
+* Currently in development: online multiplayer version of the game for lobby's of up to 9 players over a dedicated server, as well as writing the costume dedicated server using TCP and UDP sockets
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xVry_iacmUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -21,17 +21,17 @@
 <br/>
 
 # [Projekt 2: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
-* Simulacija robotske ruke sa inverznom kinematikom
+* Simulacija robotske ruke s inverznom kinematikom
 * Izrađena pokretna traka na kojoj dolaze objekti nasumičnih dimenzija i čvrstoća
 * Čvrstoće:
-* Žuta - nemože podnijeti niti jedan objekt iznad sebe 
-* Narančasta - smnije imati samo jedan objekt iznad sebe
+* Žuta - ne može podnijeti niti jedan objekt iznad sebe 
+* Narančasta - smije imati samo jedan objekt iznad sebe
 * Crvena - može podnijeti koliko god objekata iznad sebe
-* Robot ih skuplja sa pokretne trake, te algoritmom optimizirano stavlja u kutiju kako bi na kraju popunjenost bila što veća 
+* Robot ih skuplja s pokretne trake, te algoritmom optimizirano stavlja u kutiju kako bi na kraju popunjenost bila što veća 
 
 # [Project 2: Unity robot simulation for online bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
 * Simulation of inverse kinematics robot hand
-* Created a conveyor belt that is bringing objects of random dimnesions and hardness
+* Created a conveyor belt that is bringing objects of random dimensions and hardness
 * Hardnesses:
 * Yellow - can't have any objects above it
 * Orange - can only have one object above it
@@ -47,14 +47,14 @@
 <br/>
 
 # [Projekt 3: Multiplayer lobby tech demo arhitekture klijent-server](https://github.com/Ficiao/ClientServerArchitectureUnity)
-* Napravljen je dedicated server preko TCP  i UDP socketa sa custom serijalizaciom preko smjernica
-* Napraljene su serverske aplikacije u obliku .NET aplikacije i Unity server aplikacije
+* Napravljen je dedicated server preko TCP  i UDP socketa s custom serijalizacijom preko smjernica
+* Napravljene su serverske aplikacije u obliku .NET aplikacije i Unity server aplikacije
 * Napravljena je klijentska igra u Unity-u koja se spaja na server te stvara igrača koji se može kretati, pucati i skupljati iteme
 
 # [Project 3: Multiplayer lobby tech demo using client-server architecture](https://github.com/Ficiao/ClientServerArchitectureUnity)
 * Created dedicated server using TCP and UDP sockets with custom serialization using a guide
-* Created server in versions as .NET application and Unity server application
-* Created client Unity application that connects to the server, spawns a palyer that can move, shoot and pick up items
+* Created server versions as .NET application and Unity server application
+* Created a client Unity application that connects to the server, spawns a player that can move, shoot and pick up items
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yRZUbu-rByM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -64,15 +64,15 @@
 ---
 <br/>
 
-# Projekt 4: Izrada levela za postojeći simulator leta dronom i novi naćin letenja
+# Projekt 4: Izrada levela za postojeći simulator leta dronom i novi način letenja
 * Dizajniranje i izrada jungle levela za već postojeći flight simulator
 * Dodavanja novog načina leta gdje dron održava visinu dok igrač ne zadaje nikakve naredbe, dok bi inače padao
-* Modeliranje piramide, balvana i stijene u Blenderu, preostali asseti su preuzeti sa Unity stora
+* Modeliranje piramide, balvana i stijene u Blenderu, preostali asseti su preuzeti s Unity stora
 
 # Project 4: Level creation for an existing drone flight simulator and a new flight mode
 * Designing and developing a jungle level for an already existing drone flight simulator
-* Adding new flight mode where drone keeps its altitude while user isnt giving any inputs, as opposed to free falling
-* Modeling the pyramid, the log and the rock in Blender, rest of the assests were downloaded from Unity store
+* Adding new flight mode where drone keeps its altitude while the user isn't giving any inputs, as opposed to free falling
+* Modeling the pyramid, the log and the rock in Blender, the rest of the assets were downloaded from Unity store
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRxmcFNseNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -86,12 +86,12 @@
 * Izrada horde rush levela
 * Korištenje object pool patterna za optimizaciju stvaranja i uništavanja velikog broja objekata svake sekunde
 * Broj na vrhu je broj ubijenih protivnika
-* Asseti su preuzeti sa Unity stora
+* Asseti su preuzeti s Unity stora
 
 # [Project 5: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
 * Making a horde mode level
 * Using object pool pattern to optimize many objects being destroyed and spawned each second
-* Number at the top represents number of killed enemies
+* Number at the top represents the number of killed enemies
 * Assets are downloaded from Unity store
 
 <p align="center">
