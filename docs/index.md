@@ -1,4 +1,3 @@
-# Portfolio
 
 # [Projekt 1: Tetris za dva igrača](https://github.com/Ficiao/Tetris2P)
 * Izrada tetris igre za lokalno 2 igrača u Unity-u
