@@ -13,9 +13,9 @@
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xVry_iacmUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
+<br/><br/>
 ---
-
+<br/><br/>
 # [Projekt 2: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
 * Simulacija robotske ruke sa inverznom kinematikom
 * Izrađena pokretna traka na kojoj dolaze objekti nasumičnih dimenzija i čvrstoća
@@ -37,3 +37,8 @@
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l7qf6b1iuos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </p>
+<br/><br/>
+---
+<br/><br/>
+# Projekt 3: Multiplayer lobby tech demo arhitekture klijent-server
+*
