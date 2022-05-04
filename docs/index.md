@@ -1,9 +1,7 @@
 # Portfolio
-Disclamer: Naslovi projekata su ujedno i poveznice na git repository-e projekata. U nekim slučajevima poveznice neće biti, ako priroda projekta ne zahtjeva git repository ili iz nekog drugog razloga nesmijem javno dijeliti kod projekta.
+Napomena: Naslovi projekata su ujedno i poveznice na git repository-e projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
-Disclamer: Project headlines are also links to project git repositoryes. In some cases links will be missing, if the nature of the project doesnt require a repository
-or if I am not allowed to share the code of the project for some other reasone.
-
+Disclaimer: Project headlines are also links to project git repositories. If the nature of the project doesn't require a repository or if I am not allowed to share the code publicly, the link will be missing.
 
 # [Projekt 1: Tetris za dva igrača](https://github.com/Ficiao/Tetris2P)
 * Izrada tetris igre za lokalno 2 igrača u Unity-u
