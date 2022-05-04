@@ -48,7 +48,7 @@
 <br/>
 
 # [Projekt 3: Multiplayer lobby tech demo arhitekture klijent-server](https://github.com/Ficiao/ClientServerArchitectureUnity)
-* Napravljen je dedicated server preko TCP  i UDP socketa s custom serijalizacijom preko smjernica
+* Napravljen je dedicated server preko TCP  i UDP socketa s custom serijalizacijom korištenjem smjernica
 * Napravljene su serverske aplikacije u obliku .NET aplikacije i Unity server aplikacije
 * Napravljena je klijentska igra u Unity-u koja se spaja na server te stvara igrača koji se može kretati, pucati i skupljati iteme
 
