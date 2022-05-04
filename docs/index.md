@@ -48,14 +48,14 @@
 <br/>
 
 # [Projekt 3: Multiplayer lobby tech demo arhitekture klijent-server](https://github.com/Ficiao/ClientServerArchitectureUnity)
-* Napravljen je dedicated server preko TCP  i UDP socketa sa custom serijalizaciom
+* Napravljen je dedicated server preko TCP  i UDP socketa sa custom serijalizaciom preko smjernica
 * Napraljene su serverske aplikacije u obliku .NET aplikacije i Unity server aplikacije
 * Napravljena je klijentska igra u Unity-u koja se spaja na server te stvara igrača koji se može kretati, pucati i skupljati iteme
 
 # [Project 3: Multiplayer lobby tech demo using client-server architecture](https://github.com/Ficiao/ClientServerArchitectureUnity)
-* Created dedicated server using TCP and UDP sockets with custom serialization
+* Created dedicated server using TCP and UDP sockets with custom serialization using a guide
 * Created server in versions as .NET application and Unity server application
-* Created client Unity application that connects to the server, spawns palyer that can move, shoot and pick up items
+* Created client Unity application that connects to the server, spawns a palyer that can move, shoot and pick up items
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yRZUbu-rByM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -87,11 +87,13 @@
 * Izrada horde rush levela
 * Korištenje object pool patterna za optimizaciju stvaranja i uništavanja velikog broja objekata svake sekunde
 * Broj na vrhu je broj ubijenih protivnika
+* Asseti su preuzeti sa Unity stora
 
 # [Project 5: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
 * Making a horde mode level
 * Using object pool pattern to optimize many objects being destroyed and spawned each second
 * Number at the top represents number of killed enemies
+* Assets are downloaded from Unity store
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -102,15 +104,15 @@
 <br/>
 
 # Projekt 6: 3D modeliranje i animiranje viteza i oružja
-* Dizajniranje viteza, mača i štita
+* Dizajn viteza, mača i štita
 * Modeliranje viteza, mača i štita u Blenderu
-* Animiranje viteza u Blendera
+* Animiranje viteza kombinacijom Blendera i Mixamo-a
 * Importanje tih asseta u Unity i njihovo korištenje
 
 # Project 6: 3D modeling and animating a knight and weapons
-* Designing the knight, shield and sword 
+* Design of the knight, shield and sword 
 * Modeling the knight, shield and sword in Blender
-* Animating the knight in blender
+* Animating the knight with Blender and Mixamo
 * Importing it all to Unity 
 
 <img src="/images/knight.png">
