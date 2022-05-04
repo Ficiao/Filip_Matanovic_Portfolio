@@ -25,7 +25,7 @@
 * Crvena - može podnijeti koliko god objekata iznad sebe
 * Robot ih skuplja sa pokretne trake, te algoritmom optimizirano stavlja u kutiju kako bi na kraju popunjenost bila što veća 
 
-# [Project 2: Unity robot simulation for bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
+# [Project 2: Unity robot simulation for online bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
 * Simulation of inverse kinematics robot hand
 * Created a conveyor belt that is bringing objects of random dimnesions and hardness
 * Hardnesses:
