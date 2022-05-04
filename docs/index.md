@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# [Projekt 1: Tetris za dva igrača](https://github.com/Ficiao/Tetris2P)
+* Izrada tetris igre za lokalno 2 igrača u Unity-u
+* Potrebne grafike su napravljene u programu Aseprite
+* Sve mehanike su implementirane po službenim tetris standardima
+* Trenutno u izradi online multiplayer verzija preko dedicated servera za lobby-e od 9 igrača, kao i pisanje custom dedicated servera preko TCP i UDP socketa
 
-You can use the [editor on GitHub](https://github.com/Ficiao/Filip_Portfolio/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+# [Project 1: Two player tetris](https://github.com/Ficiao/Tetris2P)
+* Created a local 2 player Tetris game in Unity
+* Necessary assets were made in Aseprite
+* All game mechanics were implemented according to Tetris official standards
+* Currently in development: online multiplayer version of the game for lobbys of 9 players over dedicated server, as well as writing the costume dedicated server using TCP and UDP sockets
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F5qT-TSR9mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ficiao/Filip_Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
