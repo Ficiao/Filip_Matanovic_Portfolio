@@ -87,6 +87,7 @@
 
 # Projekt 6: 3D modeliranje i animiranje viteza i oružja
 
+![](/images/Knight.png)
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrVs29Q25zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
