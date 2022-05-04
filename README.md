@@ -3,6 +3,7 @@
 * Potrebne grafike su napravljene u programu Aseprite
 * Sve mehanike su implementirane po službenim tetris standardima
 * Trenutno u izradi online multiplayer verzija preko dedicated servera za lobby-e od 9 igrača, kao i pisanje custom dedicated servera preko TCP i UDP socketa
+
 # [Project 1: Two player tetris](https://github.com/Ficiao/Tetris2P)
 * Created a local 2 player Tetris game in Unity
 * Necessary assets were made in Aseprite
