@@ -1,4 +1,8 @@
 # Portfolio
+Disclamer: Naslovi projekata su ujedno i poveznice na git repository-e projekata. U nekim slučajevima poveznice neće biti, ako priroda projekta ne zahtjeva git repository ili iz nekog drugog razloga nesmijem javno dijeliti kod projekta.
+Disclamer: Project headlines are also links to project git repositoryes. In some cases links will be missing, if the nature of the project doesnt require a repository
+or if I am not allowed to share the code of the project for some other reasone.
+
 
 # [Projekt 1: Tetris za dva igrača](https://github.com/Ficiao/Tetris2P)
 * Izrada tetris igre za lokalno 2 igrača u Unity-u
