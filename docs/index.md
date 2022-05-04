@@ -66,8 +66,14 @@
 <br/>
 
 # Projekt 4: Izrada levela za postojeći simulator leta dronom i novi naćin letenja
+* Dizajniranje i izrada jungle levela za već postojeći flight simulator
+* Dodavanja novog načina leta gdje dron održava visinu dok igrač ne zadaje nikakve naredbe, dok bi inače padao
+* Modeliranje piramide, balvana i stijene u Blenderu, preostali asseti su preuzeti sa Unity stora
 
 # Project 4: Level creation for an existing drone flight simulator and a new flight mode
+* Designing and developing a jungle level for an already existing drone flight simulator
+* Adding new flight mode where drone keeps its altitude while user isnt giving any inputs, as opposed to free falling
+* Modeling the pyramid, the log and the rock in Blender, rest of the assests were downloaded from Unity store
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRxmcFNseNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -78,8 +84,14 @@
 <br/>
 
 # [Projekt 5: Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
+* Izrada horde rush levela
+* Korištenje object pool patterna za optimizaciju stvaranja i uništavanja velikog broja objekata svake sekunde
+* Broj na vrhu je broj ubijenih protivnika
 
 # [Project 5: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
+* Making a horde mode level
+* Using object pool pattern to optimize many objects being destroyed and spawned each second
+* Number at the top represents number of killed enemies
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -90,8 +102,16 @@
 <br/>
 
 # Projekt 6: 3D modeliranje i animiranje viteza i oružja
+* Dizajniranje viteza, mača i štita
+* Modeliranje viteza, mača i štita u Blenderu
+* Animiranje viteza u Blendera
+* Importanje tih asseta u Unity i njihovo korištenje
 
 # Project 6: 3D modeling and animating a knight and weapons
+* Designing the knight, shield and sword 
+* Modeling the knight, shield and sword in Blender
+* Animating the knight in blender
+* Importing it all to Unity 
 
 <img src="/images/knight.png">
 <p align="center">
