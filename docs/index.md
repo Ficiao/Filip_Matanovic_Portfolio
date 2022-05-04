@@ -15,6 +15,7 @@
 </p>
 
 
+
 # [Projekt 2: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
 * Simulacija robotske ruke sa inverznom kinematikom
 * Izrađena pokretna traka na kojoj dolaze objekti nasumičnih dimenzija i čvrstoća
