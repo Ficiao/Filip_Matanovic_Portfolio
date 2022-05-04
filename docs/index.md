@@ -45,5 +45,20 @@
 ---
 <br/>
 
-# Projekt 3: Multiplayer lobby tech demo arhitekture klijent-server
-*
+# [Projekt 3: Multiplayer lobby tech demo arhitekture klijent-server](https://github.com/Ficiao/ClientServerArchitectureUnity)
+* Napravljen je dedicated server preko TCP  i UDP socketa sa custom serijalizaciom
+* Napraljene su serverske aplikacije u obliku .NET aplikacije i Unity server aplikacije
+* Napravljena je klijentska igra u Unity-u koja se spaja na server te stvara igrača koji se može kretati, pucati i skupljati iteme
+
+# [Project 3: Multiplayer lobby tech demo using client-server architecture](https://github.com/Ficiao/ClientServerArchitectureUnity)
+* Created dedicated server using TCP and UDP sockets with custom serialization
+* Created server in versions as .NET application and Unity server application
+* Created client Unity application that connects to the server, spawns palyer that can move, shoot and pick up items
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7qf6b1iuos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+<br/>
+
+---
+<br/>
