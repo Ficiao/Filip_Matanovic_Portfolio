@@ -64,3 +64,33 @@
 
 ---
 <br/>
+
+# Projekt 4: Izrada levela za postojeći simulator leta dronom i novi naćin letenja
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pRxmcFNseNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+<br/>
+
+---
+<br/>
+
+# Projekt 5: Izrada horde rush levela za vježbanje optimizacijskih patterna
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+<br/>
+
+---
+<br/>
+
+# Projekt 6: 3D modeliranje i animiranje viteza i oružja
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XrVs29Q25zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+<br/>
+
+---
+<br/>
