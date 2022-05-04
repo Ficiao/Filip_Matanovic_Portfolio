@@ -11,6 +11,6 @@
 * Currently in development: online multiplayer version of the game for lobbys of 9 players over dedicated server, as well as writing the costume dedicated server using TCP and UDP sockets
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F5qT-TSR9mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xVry_iacmUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
