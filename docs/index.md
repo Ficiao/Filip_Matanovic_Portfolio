@@ -67,6 +67,8 @@
 
 # Projekt 4: Izrada levela za postojeći simulator leta dronom i novi naćin letenja
 
+# Project 4: Level creation for an existing drone flight simulator and a new flight mode
+
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRxmcFNseNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
@@ -77,6 +79,8 @@
 
 # [Projekt 5: Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
 
+# [Project 5: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
+
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
@@ -86,6 +90,8 @@
 <br/>
 
 # Projekt 6: 3D modeliranje i animiranje viteza i oružja
+
+# Project 6: 3D modeling and animating a knight and weapons
 
 ![](/images/Knight.png)
 <p align="center">
