@@ -3,7 +3,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repository-e projekata.
 
 Disclaimer: Project headlines are also links to project git repositories. If the nature of the project doesn't require a repository or if I am for some other reasons not allowed to share the code publicly, the link will be missing.
 
-# [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata]
+# Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
 * Izrađen je vlasititi protokol za komunikaciju preko TCP-a i UDP-a
 * Izrađeni su asseti za igru
@@ -11,7 +11,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 * Napravljen je gamloop mečeva gdje igrač spaja riječi od pnuđenih šesnaest slučajnih slova, te čini štetu ovisno o duljini riječi
 * Igra također sadrži i PvP i PvE leaderboard-ove
 
-# [Project 1: MMO vertical slice, with custom netcode, client side prediction, server reconciliation and entity interpolation]
+# Project 1: MMO vertical slice with custom netcode, client side prediction, server reconciliation and entity interpolation
 * The client application of the game, as well as server applications for the login server, overworld server and instances were created
 * Custom cummunication protocol via TCP and UDP was developed
 * Game assets have been created
