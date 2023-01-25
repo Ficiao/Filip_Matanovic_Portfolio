@@ -9,7 +9,8 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 * Izrađeni su asseti za igru
 * Napravljen je gameloop kretanja u svijetu, te ulaska u PvP i PvE mečeve
 * Napravljen je gamloop mečeva gdje igrač spaja riječi od pnuđenih šesnaest slučajnih slova, te čini štetu ovisno o duljini riječi
-* Igra također sadrži i PvP i PvE leaderboard-ove
+* Igra također sadrži PvP i PvE leaderboard-ove
+* Za igru je napravljen launcher koji ju automatski drži ažuriranom, te prikazuje patch notes-e i verziju
 
 # Project 1: MMO vertical slice with custom netcode, client side prediction, server reconciliation and entity interpolation
 * The client application of the game, as well as server applications for the login server, overworld server and instances were created
@@ -18,6 +19,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 * The gameloop of movement in the world and entering PvP and PvE matches was created
 * Match gameloop was created where the player combines words from random sixteen letters that are offered to him and does damage depending on the length of the word
 * The game also features PvP and PvE leaderboards
+* Laucher was made for the game, that keeps the game updated and shows patchnotes and version
 
 <p align="center">
 
