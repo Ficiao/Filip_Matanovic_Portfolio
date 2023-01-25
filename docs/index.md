@@ -21,7 +21,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 
 <p align="center">
 
-    </p>
+</p>
 <br/>
 
 ---
