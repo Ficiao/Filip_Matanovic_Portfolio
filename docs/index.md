@@ -29,7 +29,25 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 ---
 <br/>
 
-# [Projekt 2: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
+# [Projekt 2: Igra šah u 3D-u](https://github.com/Ficiao/Chess3D)
+* Igra šaha u 3D-u za lokalno dva igrača
+* Logika igre, potezi, upravljanje figurama
+* Sistem spremanja igara, te ponovnog izvođenja snimaka
+
+# [Project 2: Chess game in 3D](https://github.com/Ficiao/Chess3D)
+* Chess game in 3D for two local players
+* Game logic, turn and controlling pieces
+* System for saving and replaying games
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/79TN8W0w-HU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </p>
+<br/>
+
+---
+<br/>
+
+# [Projekt 3: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
 * Simulacija robotske ruke s inverznom kinematikom
 * Izrađena pokretna traka na kojoj dolaze objekti nasumičnih dimenzija i čvrstoća
 * Čvrstoće:
@@ -38,7 +56,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 * Crvena - može podnijeti koliko god objekata iznad sebe
 * Robot ih skuplja s pokretne trake, te algoritmom optimizirano stavlja u kutiju kako bi na kraju popunjenost bila što veća 
 
-# [Project 2: Unity robot simulation for online bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
+# [Project 3: Unity robot simulation for online bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
 * Simulation of inverse kinematics robot hand
 * Created a conveyor belt that is bringing objects of random dimensions and hardness
 * Hardnesses:
@@ -55,13 +73,13 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 ---
 <br/>
 
-# [Projekt 3: Tetris za dva igrača](https://github.com/Ficiao/Tetris2P)
+# [Projekt 4: Tetris za dva igrača](https://github.com/Ficiao/Tetris2P)
 * Izrada tetris igre za lokalno 2 igrača u Unity-u
 * Potrebne grafike sam izradio u programu Aseprite
 * Sve mehanike su implementirane po službenim tetris standardima
 * Trenutno u izradi online multiplayer verzija preko dedicated servera za lobby-e do 9 igrača, kao i pisanje custom dedicated servera preko TCP i UDP socketa
 
-# [Project 3: Two player Tetris](https://github.com/Ficiao/Tetris2P)
+# [Project 4: Two player Tetris](https://github.com/Ficiao/Tetris2P)
 * Created a local 2 player Tetris game in Unity
 * I have made necessary assets in Aseprite
 * All game mechanics were implemented according to Tetris official standards
@@ -76,12 +94,12 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 ---
 <br/>
 
-# Projekt 4: Izrada levela za postojeći simulator leta dronom i novi način letenja
+# Projekt 5: Izrada levela za postojeći simulator leta dronom i novi način letenja
 * Dizajniranje i izrada jungle levela za već postojeći flight simulator
 * Dodavanja novog načina leta gdje dron održava visinu dok igrač ne zadaje nikakve naredbe, dok bi inače padao
 * Modeliranje piramide, balvana i stijene u Blenderu, preostali asseti su preuzeti s Unity stora
 
-# Project 4: Level creation for an existing drone flight simulator and a new flight mode
+# Project 5: Level creation for an existing drone flight simulator and a new flight mode
 * Designing and developing a jungle level for an already existing drone flight simulator
 * Adding new flight mode where drone keeps its altitude while the user isn't giving any inputs, as opposed to free falling
 * Modeling the pyramid, the log and the rock in Blender, the rest of the assets were downloaded from Unity store
@@ -94,13 +112,13 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 ---
 <br/>
 
-# [Projekt 5: Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
+# [Projekt 6: Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
 * Izrada horde rush levela
 * Korištenje object pool patterna za optimizaciju stvaranja i uništavanja velikog broja objekata svake sekunde
 * Broj na vrhu je broj ubijenih protivnika
 * Asseti su preuzeti s Unity stora
 
-# [Project 5: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
+# [Project 6: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
 * Making a horde mode level
 * Using object pool pattern to optimize many objects being destroyed and spawned each second
 * Number at the top represents the number of killed enemies
@@ -114,13 +132,13 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 ---
 <br/>
 
-# Projekt 6: 3D modeliranje i animiranje low poly viteza i oružja
+# Projekt 7: 3D modeliranje i animiranje low poly viteza i oružja
 * Dizajn low poly viteza, mača i štita
 * Modeliranje viteza, mača i štita u Blenderu
 * Animiranje viteza kombinacijom Blendera i Mixamo-a
 * Importanje tih asseta u Unity i njihovo korištenje
 
-# Project 6: 3D modeling and animating a low poly knight and weapons
+# Project 7: 3D modeling and animating a low poly knight and weapons
 * Design of the low poly knight, shield and sword 
 * Modeling the knight, shield and sword in Blender
 * Animating the knight with Blender and Mixamo
