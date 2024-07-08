@@ -22,12 +22,12 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 * Laucher was made for the game, that keeps the game updated and shows patchnotes and version
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tTIj7t3eByw" title="MMO vertical slice project with custom netcode and client side prediction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tTIj7t3eByw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 <br/>
 
 ---
-# [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
+# [Projekt 2: Umrežena igra pucanja iz trećeg lica arhitekture domaćin-klijenti koja koristi Photon Fusion 2 biblioteku](https://github.com/Ficiao/SpellFlinger)
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
 * Izrađen je vlasititi protokol za komunikaciju preko TCP-a i UDP-a
 * Izrađeni su asseti za igru
@@ -36,7 +36,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 * Igra također sadrži PvP i PvE leaderboard-ove
 * Za igru je napravljen launcher koji ju automatski drži ažuriranom, te prikazuje patch notes-e i verziju
 
-# [Project 1: MMO vertical slice with custom netcode, client side prediction, server reconciliation and entity interpolation](https://github.com/Ficiao/KnjiznicarLinks)
+# [Project 2: Multiplayer third person shooter game with host-client architecture made using Photon Fusion 2 library](https://github.com/Ficiao/SpellFlinger)
 * The client application of the game, as well as server applications for the login server, overworld server and instances were created
 * Custom cummunication protocol via TCP and UDP was developed
 * Game assets have been created
