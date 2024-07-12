@@ -28,22 +28,20 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 
 ---
 # [Projekt 2: Umrežena igra pucanja iz trećeg lica arhitekture domaćin-klijenti koja koristi Photon Fusion 2 biblioteku](https://github.com/Ficiao/SpellFlinger)
-* Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
-* Izrađen je vlasititi protokol za komunikaciju preko TCP-a i UDP-a
-* Izrađeni su asseti za igru
-* Napravljen je gameloop kretanja u svijetu, te ulaska u PvP i PvE mečeve
-* Napravljen je gamloop mečeva gdje igrač spaja riječi od pnuđenih šesnaest slučajnih slova, te čini štetu ovisno o duljini riječi
-* Igra također sadrži PvP i PvE leaderboard-ove
-* Za igru je napravljen launcher koji ju automatski drži ažuriranom, te prikazuje patch notes-e i verziju
+* Umrežena igra pucanja iz trećeg lica
+* Izrađeni potrebni vizualni elementi
+* Funkcionalnosti stvaranja i spajanja u sobe za igru, odabir borbene čarolije i mape za igru
+* Mogućnosti timskog igranja ili svatko za sebe
+* Mrežna komunikacija i sinkronizacija objekata ostvarena pomoću Photon Fusion 2 biblioteke
+* Na temelju projekta izrađene upute za učenje za svrhe laboratorijske vježbe
 
 # [Project 2: Multiplayer third person shooter game with host-client architecture made using Photon Fusion 2 library](https://github.com/Ficiao/SpellFlinger)
-* The client application of the game, as well as server applications for the login server, overworld server and instances were created
-* Custom cummunication protocol via TCP and UDP was developed
-* Game assets have been created
-* The gameloop of movement in the world and entering PvP and PvE matches was created
-* Match gameloop was created where the player combines words from random sixteen letters that are offered to him and does damage depending on the length of the word
-* The game also features PvP and PvE leaderboards
-* Laucher was made for the game, that keeps the game updated and shows patchnotes and version
+* Multiplayer third person shooter game
+* Necessary visual elements have been made for the project
+* Game contains functionalities for creating and joining game rooms, choosing battle spells and choosing battle maps
+* Game can be played in team mode of free for all
+* Photon Fusion 2 has been used for network communication and object synchronization
+* Instructions for the purposes of the laboratory exercises were created based on the project
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8XTLASs7C0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
