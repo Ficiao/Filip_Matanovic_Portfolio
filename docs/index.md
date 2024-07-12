@@ -134,13 +134,32 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 ---
 <br/>
 
-# [Projekt 7: Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
+# [Projekt 7: Vertical slice platformerske igre]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
+* Jednostavna platformerska igra
+* Igra sadrži dvije razine: boss rush i platformsku razinu
+
+# [Project 7: Vertical slice of platformer game]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
+* Simple platformer game
+* Game contains two level: boss rush and a platformer level
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xnxrvbYkP3I?si=U9d1jjG1ETDVBLlB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ol4w9KW0r_0?si=_Z-_JXD6RVpH9J73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+<br/>
+
+---
+<br/>
+
+# [Projekt 8: Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
 * Izrada horde rush levela
 * Korištenje object pool patterna za optimizaciju stvaranja i uništavanja velikog broja objekata svake sekunde
 * Broj na vrhu je broj ubijenih protivnika
 * Asseti su preuzeti s Unity stora
 
-# [Project 7: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
+# [Project 8: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
 * Making a horde mode level
 * Using object pool pattern to optimize many objects being destroyed and spawned each second
 * Number at the top represents the number of killed enemies
@@ -154,13 +173,13 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 ---
 <br/>
 
-# Projekt 8: 3D modeliranje i animiranje low poly viteza i oružja
+# Projekt 9: 3D modeliranje i animiranje low poly viteza i oružja
 * Dizajn low poly viteza, mača i štita
 * Modeliranje viteza, mača i štita u Blenderu
 * Animiranje viteza kombinacijom Blendera i Mixamo-a
 * Importanje tih asseta u Unity i njihovo korištenje
 
-# Project 8: 3D modeling and animating a low poly knight and weapons
+# Project 9: 3D modeling and animating a low poly knight and weapons
 * Design of the low poly knight, shield and sword 
 * Modeling the knight, shield and sword in Blender
 * Animating the knight with Blender and Mixamo
