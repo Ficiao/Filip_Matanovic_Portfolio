@@ -4,7 +4,7 @@
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 <div style="display:flex; gap:20px; flex-wrap:wrap;">
 
-  <div markdown="1"; style="flex:1; min-width:300px; border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <div class="card" markdown="1">
 # [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
 * Izrađen je vlasititi protokol za komunikaciju preko TCP-a i UDP-a
