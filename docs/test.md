@@ -4,11 +4,24 @@
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
 <style>
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 16px;
-  margin: 1rem 0;
+.fullbleed{
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-inline: 24px; 
+}
+
+.projects{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap:20px;
+  margin:1rem 0;
+}
+@media (min-width: 1100px){
+  .projects{ grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1400px){
+  .projects{ max-width:1280px; margin-inline:auto; }
 }
 
 .card {
@@ -31,7 +44,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 }
 </style>
 
-<div class="projects">
+<div class="projects fullbleed">
   <div class="card" markdown="1">
 ## [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
