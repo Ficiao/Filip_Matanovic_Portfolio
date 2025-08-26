@@ -3,6 +3,35 @@
 # Portfolio
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
+<style>
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 1rem 0;
+}
+
+.card {
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 14px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+}
+
+.card h3 { margin-top: 0; }
+.card ul { margin: .5rem 0 0 1.25rem; }
+
+.video {
+  position: relative; width: 100%;
+  aspect-ratio: 16/9; 
+  overflow: hidden; border-radius: 8px;
+}
+.video iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+}
+</style>
+
   <div class="card" markdown="1">
 # [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
@@ -13,9 +42,9 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 * Igra također sadrži PvP i PvE leaderboard-ove
 * Za igru je napravljen launcher koji ju automatski drži ažuriranom, te prikazuje patch notes-e i verziju
 
-<p align="center">
+<div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tTIj7t3eByw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+  </div>
 </div>
 
   <div style="flex:1; min-width:300px; border:1px solid #ccc; padding:10px; border-radius:8px;">
