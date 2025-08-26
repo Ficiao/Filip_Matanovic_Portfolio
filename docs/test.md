@@ -4,34 +4,38 @@
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
 <style>
+.fullbleed {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 16px;
   margin: 1rem 0;
 }
 
+@media (min-width: 900px) { .projects { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1200px) { .projects { grid-template-columns: repeat(3, 1fr); } }
+
+@supports not (display: grid) {
+  .projects { display: flex; flex-wrap: wrap; gap: 16px; }
+  .projects .card { flex: 1 1 280px; }
+}
+
 .card {
-  border: 1px solid #d0d7de;
-  border-radius: 10px;
-  padding: 14px;
-  background: #fff;
+  border: 1px solid #d0d7de; border-radius: 10px; padding: 14px; background: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,.06);
 }
-
+  
 .card h3 { margin-top: 0; margin-bottom: 0; }
 
-
-.video {
-  position: relative; width: 100%;
-  aspect-ratio: 16/9; 
-  overflow: hidden; border-radius: 8px;
-}
-.video iframe {
-  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
-}
+.video { position: relative; width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 8px; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 </style>
 
+<div class="projects fullbleed">
   <div class="card" markdown="1">
 ## [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
@@ -84,5 +88,6 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l7qf6b1iuos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 </div>
