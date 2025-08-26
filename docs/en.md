@@ -18,6 +18,9 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </p>
 <br/>
 
+---
+<br/>
+
 # [Project 2: Multiplayer third person shooter game with host-client architecture made using Photon Fusion 2 library](https://github.com/Ficiao/SpellFlinger)
 * Multiplayer third person shooter game
 * Necessary visual elements have been made for the project
