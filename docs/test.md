@@ -19,8 +19,8 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
   box-shadow: 0 1px 3px rgba(0,0,0,.06);
 }
 
-.card h3 { margin-top: 0; }
-.card ul { margin: .5rem 0 0 1.25rem; }
+.card h3 { margin-top: 0; margin-bottom: 0; }
+
 
 .video {
   position: relative; width: 100%;
