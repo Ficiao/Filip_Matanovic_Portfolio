@@ -47,7 +47,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
   </div>
 </div>
 
-  <div style="flex:1; min-width:300px; border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <div class="card" markdown="1">
 # [Projekt 2: Umrežena igra pucanja iz trećeg lica arhitekture domaćin-klijenti koja koristi Photon Fusion 2 biblioteku](https://github.com/Ficiao/SpellFlinger)
 * Umrežena igra pucanja iz trećeg lica
 * Izrađeni potrebni vizualni elementi
@@ -56,23 +56,23 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 * Mrežna komunikacija i sinkronizacija objekata ostvarena pomoću Photon Fusion 2 biblioteke
 * Na temelju projekta izrađene upute za učenje za svrhe laboratorijske vježbe
 
-<p align="center">
+<div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8XTLASs7C0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+</div>
 </div>
 
-  <div style="flex:1; min-width:300px; border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <div class="card" markdown="1">
 # [Projekt 3: Igra šah u 3D-u](https://github.com/Ficiao/Chess3D)
 * Igra šaha u 3D-u za lokalno dva igrača
 * Logika igre, potezi, upravljanje figurama
 * Sistem spremanja igara, te ponovnog izvođenja snimaka
 
-<p align="center">
+<div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/79TN8W0w-HU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </p>
+</div>
 </div>
 
-  <div style="flex:1; min-width:300px; border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <div class="card" markdown="1">
 # [Projekt 4: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
 * Simulacija robotske ruke s inverznom kinematikom
 * Izrađena pokretna traka na kojoj dolaze objekti nasumičnih dimenzija i čvrstoća
@@ -82,7 +82,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 * Crvena - može podnijeti koliko god objekata iznad sebe
 * Robot ih skuplja s pokretne trake, te algoritmom optimizirano stavlja u kutiju kako bi na kraju popunjenost bila što veća 
 
-<p align="center">
+<div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l7qf6b1iuos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
+</div>
 </div>
