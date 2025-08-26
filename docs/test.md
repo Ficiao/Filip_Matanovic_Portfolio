@@ -33,7 +33,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </style>
 
   <div class="card" markdown="1">
-# [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
+## [Projekt 1: Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
 * Izrađen je vlasititi protokol za komunikaciju preko TCP-a i UDP-a
 * Izrađeni su asseti za igru
@@ -48,7 +48,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 
   <div class="card" markdown="1">
-# [Projekt 2: Umrežena igra pucanja iz trećeg lica arhitekture domaćin-klijenti koja koristi Photon Fusion 2 biblioteku](https://github.com/Ficiao/SpellFlinger)
+## [Projekt 2: Umrežena igra pucanja iz trećeg lica arhitekture domaćin-klijenti koja koristi Photon Fusion 2 biblioteku](https://github.com/Ficiao/SpellFlinger)
 * Umrežena igra pucanja iz trećeg lica
 * Izrađeni potrebni vizualni elementi
 * Funkcionalnosti stvaranja i spajanja u sobe za igru, odabir borbene čarolije i mape za igru
@@ -62,7 +62,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 
   <div class="card" markdown="1">
-# [Projekt 3: Igra šah u 3D-u](https://github.com/Ficiao/Chess3D)
+## [Projekt 3: Igra šah u 3D-u](https://github.com/Ficiao/Chess3D)
 * Igra šaha u 3D-u za lokalno dva igrača
 * Logika igre, potezi, upravljanje figurama
 * Sistem spremanja igara, te ponovnog izvođenja snimaka
@@ -73,7 +73,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 
   <div class="card" markdown="1">
-# [Projekt 4: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
+## [Projekt 4: Unity simulacija robota za online bin skupljanje i sortiranje objekata](https://github.com/Ficiao/RobotBinSimulator)
 * Simulacija robotske ruke s inverznom kinematikom
 * Izrađena pokretna traka na kojoj dolaze objekti nasumičnih dimenzija i čvrstoća
 * Čvrstoće:
