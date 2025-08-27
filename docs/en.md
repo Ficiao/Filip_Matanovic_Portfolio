@@ -35,14 +35,14 @@
 }
 
 .btn{display:inline-block; padding:6px 12px; border:1px solid #333; border-radius:6px; text-decoration:none; background:#f1f5f9; color:#111; font-weight:600;}
-.btn:hover{background:#e2e8f0;}
+.btn:hover{background:#e2e8f0; color:#111;}
 .btn:focus{outline:2px solid #60a5fa; outline-offset:2px;}
 .btn--primary{background:#2563eb; border-color:#2563eb; color:#fff;}
 .btn-group{display:flex; gap:8px; flex-wrap:wrap;}
 </style>
 
 <div class="btn-group">
-  <a href="index.html" class="btn btn--primary">🇭🇷 HR</a>
+  <a href="index.html" class="btn">🇭🇷 HR</a>
   <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
 </div>
 <br>
