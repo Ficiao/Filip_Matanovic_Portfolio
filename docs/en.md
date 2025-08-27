@@ -44,7 +44,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 <div class="projects fullbleed">
 
   <div class="card" markdown="1">
-## [Project 1: MMO vertical slice with custom netcode, client side prediction, server reconciliation and entity interpolation](https://github.com/Ficiao/KnjiznicarLinks)
+## [MMO vertical slice with custom netcode, client side prediction, server reconciliation and entity interpolation](https://github.com/Ficiao/KnjiznicarLinks)
 * The client application of the game, as well as server applications for the login server, overworld server and instances were created
 * Custom cummunication protocol via TCP and UDP was developed
 * Game assets have been created
@@ -59,7 +59,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Project 2: Multiplayer third person shooter game with host-client architecture made using Photon Fusion 2 library](https://github.com/Ficiao/SpellFlinger)
+## [Multiplayer third person shooter game with host-client architecture made using Photon Fusion 2 library](https://github.com/Ficiao/SpellFlinger)
 * Multiplayer third person shooter game
 * Necessary visual elements have been made for the project
 * Game contains functionalities for creating and joining game rooms, choosing battle spells and choosing battle maps
@@ -73,7 +73,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Project 3: Chess game in 3D](https://github.com/Ficiao/Chess3D)
+## [Chess game in 3D](https://github.com/Ficiao/Chess3D)
 * Chess game in 3D for two local players
 * Game logic, turn and controlling pieces
 * System for saving and replaying games
@@ -84,7 +84,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Project 4: Unity robot simulation for online bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
+## [Unity robot simulation for online bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
 * Simulation of inverse kinematics robot hand
 * Created a conveyor belt that is bringing objects of random dimensions and hardness
 * Hardnesses:
@@ -99,7 +99,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Project 5: Two player Tetris](https://github.com/Ficiao/Tetris2P)
+## [Two player Tetris](https://github.com/Ficiao/Tetris2P)
 * Created a local 2 player Tetris game in Unity
 * I have made necessary assets in Aseprite
 * All game mechanics were implemented according to Tetris official standards
@@ -111,7 +111,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## Project 6: Level creation for an existing drone flight simulator and a new flight mode
+## Level creation for an existing drone flight simulator and a new flight mode
 * Designing and developing a jungle level for an already existing drone flight simulator
 * Adding new flight mode where drone keeps its altitude while the user isn't giving any inputs, as opposed to free falling
 * Modeling the pyramid, the log and the rock in Blender, the rest of the assets were downloaded from Unity store
@@ -122,7 +122,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Project 7: Vertical slice of platformer game]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
+## [Vertical slice of platformer game]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
 * Simple platformer game
 * Game contains two level: boss rush and a platformer level
 
@@ -135,7 +135,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Project 8: Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
+## [Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
 * Making a horde mode level
 * Using object pool pattern to optimize many objects being destroyed and spawned each second
 * Number at the top represents the number of killed enemies
@@ -147,7 +147,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## Project 9: 3D modeling and animating a low poly knight and weapons
+## 3D modeling and animating a low poly knight and weapons
 * Design of the low poly knight, shield and sword 
 * Modeling the knight, shield and sword in Blender
 * Animating the knight with Blender and Mixamo
