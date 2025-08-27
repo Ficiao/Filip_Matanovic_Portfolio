@@ -47,6 +47,20 @@
 .btn--primary{background:#2563eb; border-color:#2563eb; color:#fff;}
 .btn--primary:hover{background:#e2e8f0; color:#111; border-color:#333;}
 .btn-group{display:flex; gap:8px; flex-wrap:wrap;}
+
+  .linklike{
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: #0969da;           
+  text-decoration: underline;
+  cursor: pointer;
+}
+.linklike:hover{text-decoration: underline;}
+.linklike:focus{outline: 2px solid #60a5fa; outline-offset: 2px;}
+
+.copy-msg{ margin-left: 8px; font-size: .95em; }
 </style>
 
 <script>
@@ -56,31 +70,28 @@
       return navigator.clipboard.writeText(text);
     }
     return new Promise(function(resolve){
-      var ta=document.createElement('textarea');
-      ta.value=text; ta.setAttribute('readonly','');
-      ta.style.position='absolute'; ta.style.left='-9999px';
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly','');
+      ta.style.position = 'absolute'; ta.style.left = '-9999px';
       document.body.appendChild(ta); ta.select();
       try{ document.execCommand('copy'); }catch(e){}
       document.body.removeChild(ta); resolve();
     });
   }
 
-  document.querySelectorAll('.js-copy').forEach(function(a){
-    a.addEventListener('click', function(e){
-      e.preventDefault();
-      var text = a.dataset.copy || a.textContent.trim();
-      var done = a.dataset.done || 'Copied to clipboard';
-
+  document.querySelectorAll('.js-copy-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = btn.dataset.copy || btn.textContent.trim();
       copyToClipboard(text).then(function(){
-        var msg = a.nextElementSibling;
-        if (!msg || !msg.classList.contains('js-copy-msg')) {
+        var msg = btn.nextElementSibling;
+        if (!msg || !msg.classList.contains('copy-msg')) {
           msg = document.createElement('span');
-          msg.className = 'js-copy-msg';
-          a.insertAdjacentElement('afterend', msg);
+          msg.className = 'copy-msg';
+          btn.insertAdjacentElement('afterend', msg);
         }
-        clearTimeout(a._copyTimeout);
-        msg.textContent = ' ' + done;
-        a._copyTimeout = setTimeout(function(){ msg.textContent = ''; }, 1400);
+        clearTimeout(btn._t);
+        msg.textContent = ' Copied to clipboard';
+        btn._t = setTimeout(function(){ msg.textContent = ''; }, 1400);
       });
     });
   });
@@ -92,8 +103,13 @@
   <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
-    <a href="#" class="js-copy" data-copy="filipmtvn@gmail.com" data-done="Copied to clipboard">filipmtvn@gmail.com</a>
-    <span class="js-copy-msg" aria-live="polite"></span>
+<button type="button"
+        class="linklike js-copy-btn"
+        data-copy="filipmtvn@gmail.com"
+        aria-label="Copy email to clipboard">
+  filipmtvn@gmail.com
+</button>
+<span class="copy-msg" aria-live="polite"></span>
     <a href="https://www.linkedin.com/in/filip-matanovi%C4%87-43503b235/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://github.com/Ficiao" target="_blank" rel="noopener">GitHub</a>
     <a href="cv_fm.pdf" target="_blank" rel="noopener">CV (PDF)</a>
