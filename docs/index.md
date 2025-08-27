@@ -21,7 +21,7 @@
   .projects{ grid-template-columns: repeat(3, 1fr); }
 }
   
-.card{ display:flex; flex-direction:column; border:1px solid #d0d7de; border-radius:10px; padding:14px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+.card{border:1px solid #d0d7de; border-radius:10px; padding:14px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.06); }
   
 .card h3 { margin-top: 0; margin-bottom: 0; }
 
@@ -41,8 +41,6 @@
 .video iframe {
   position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
 }
-
-  .card .video{ margin-top:auto; }
   
 .btn{display:inline-block; padding:6px 12px; border:1px solid #333; border-radius:6px; text-decoration:none; background:#f1f5f9; color:#111; font-weight:600;}
 .btn:hover{background:#e2e8f0;}
