@@ -106,8 +106,8 @@ button.linklike{ margin:0 !important; }
 </script>
 
 <div class="btn-group">
-  <a href="index.html" class="btn">🇭🇷 HR</a>
-  <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
+  <a href="index.html" class="btn btn--primary">🇭🇷 HR</a>
+  <a href="en.html" class="btn">🇬🇧 EN</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
 <button type="button"
