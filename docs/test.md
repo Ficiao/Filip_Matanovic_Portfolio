@@ -4,27 +4,28 @@
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
 <style>
+:root{ --g: 20px; }
+  
 .fullbleed{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  width: 100vw;       
+  width: 100vw;
   max-width: 100vw;
-  padding-left: 24px;     
-  padding-right: 24px;
+  box-sizing: border-box;
 }
 
 .projects{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 20px;
+  gap: var(--g);
+  padding: var(--g);         
   margin: 1rem 0;
 }
-
 @media (min-width: 1200px){
   .projects{ grid-template-columns: repeat(3, 1fr); }
 }
-
+  
 .card{ border:1px solid #d0d7de; border-radius:10px; padding:14px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.06); }
   
 .card h3 { margin-top: 0; margin-bottom: 0; }
