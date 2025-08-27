@@ -48,17 +48,78 @@
 .btn--primary{background:#2563eb; border-color:#2563eb; color:#fff;}
 .btn--primary:hover{background:#e2e8f0; color:#111; border-color:#333;}
 .btn-group{display:flex; gap:8px; flex-wrap:wrap;}
+.linklike{
+  background: none;
+  display:inline;          
+  margin:0;              
+  padding:0;
+  border:0;
+  background:transparent;
+  font:inherit;
+  color: #0969da;       
+  text-decoration: none;
+  vertical-align:baseline;
+  line-height:inherit;
+  -webkit-appearance:none;
+  appearance:none;
+  cursor: pointer;
+}
+  
+.linklike:hover{text-decoration: underline;} 
+  
+.linklike:focus{outline: 2px solid #60a5fa; outline-offset: 2px;}
+  
+button.linklike{ margin:0 !important; }
+
+.copy-msg{ margin-left:0; }
+.copy-msg:not(:empty){ margin-left:8px; }
 </style>
 
+<script>
+(function(){
+  var TEXT_TO_COPY = 'filipmtvn@gmail.com';
+
+  document.addEventListener('click', function(e){
+    var el = e.target.closest('.js-copy');
+    if(!el) return;
+    e.preventDefault();
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(TEXT_TO_COPY);
+    } else {
+      var ta=document.createElement('textarea');
+      ta.value=TEXT_TO_COPY; ta.setAttribute('readonly','');
+      ta.style.position='absolute'; ta.style.left='-9999px';
+      document.body.appendChild(ta); ta.select();
+      try{ document.execCommand('copy'); }catch(e){}
+      document.body.removeChild(ta);
+    }
+
+    var msg = el.nextElementSibling;
+    if (msg && msg.classList.contains('copy-msg')) {
+      clearTimeout(el._t);
+      msg.textContent = ' Copied to clipboard';
+      el._t = setTimeout(function(){ msg.textContent=''; }, 1400);
+    }
+  });
+})();
+</script>
+
 <div class="btn-group">
-  <a href="index.html" class="btn btn--primary">🇭🇷 HR</a>
-  <a href="en.html" class="btn">🇬🇧 EN</a>
+  <a href="index.html" class="btn">🇭🇷 HR</a>
+  <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
-    <a href="mailto:filipmtvn@gmail.com?subject=Portfolio%20enquiry">Email</a>
+<button type="button"
+        class="linklike js-copy"
+        data-copy="filipmtvn@gmail.com"
+        aria-label="Copy email to clipboard">
+  filipmtvn@gmail.com
+</button>
+<span class="copy-msg" aria-live="polite"></span>
     <a href="https://www.linkedin.com/in/filip-matanovi%C4%87-43503b235/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://github.com/Ficiao" target="_blank" rel="noopener">GitHub</a>
-    <a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+    <a href="cv_fm.pdf" target="_blank" rel="noopener">CV (PDF)</a>
 </div>
 Disclaimer: Project headlines are also links to project git repositories. If the nature of the project doesn't require a repository or if I am for some other reasons not allowed to share the code publicly, the link will be missing.
 
