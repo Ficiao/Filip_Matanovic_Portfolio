@@ -49,12 +49,51 @@
 .btn-group{display:flex; gap:8px; flex-wrap:wrap;}
 </style>
 
+<script>
+(function(){
+  function copyToClipboard(text){
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function(resolve){
+      var ta=document.createElement('textarea');
+      ta.value=text; ta.setAttribute('readonly','');
+      ta.style.position='absolute'; ta.style.left='-9999px';
+      document.body.appendChild(ta); ta.select();
+      try{ document.execCommand('copy'); }catch(e){}
+      document.body.removeChild(ta); resolve();
+    });
+  }
+
+  document.querySelectorAll('.js-copy').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      var text = a.dataset.copy || a.textContent.trim();
+      var done = a.dataset.done || 'Copied to clipboard';
+
+      copyToClipboard(text).then(function(){
+        var msg = a.nextElementSibling;
+        if (!msg || !msg.classList.contains('js-copy-msg')) {
+          msg = document.createElement('span');
+          msg.className = 'js-copy-msg';
+          a.insertAdjacentElement('afterend', msg);
+        }
+        clearTimeout(a._copyTimeout);
+        msg.textContent = ' ' + done;
+        a._copyTimeout = setTimeout(function(){ msg.textContent = ''; }, 1400);
+      });
+    });
+  });
+})();
+</script>
+
 <div class="btn-group">
   <a href="index.html" class="btn">🇭🇷 HR</a>
   <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
-    <a href="mailto:filipmtvn@gmail.com?subject=Portfolio%20enquiry">Email</a>
+    <a href="#" class="js-copy" data-copy="filipmtvn@gmail.com" data-done="Copied to clipboard">filipmtvn@gmail.com</a>
+    <span class="js-copy-msg" aria-live="polite"></span>
     <a href="https://www.linkedin.com/in/filip-matanovi%C4%87-43503b235/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://github.com/Ficiao" target="_blank" rel="noopener">GitHub</a>
     <a href="cv_fm.pdf" target="_blank" rel="noopener">CV (PDF)</a>
