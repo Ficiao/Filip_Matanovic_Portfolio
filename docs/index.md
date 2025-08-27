@@ -25,6 +25,14 @@
   
 .card h3 { margin-top: 0; margin-bottom: 0; }
 
+.contact-bar.fullbleed{
+  position: relative; left:50%; transform:translateX(-50%);
+  width:100vw; box-sizing:border-box; padding:0 var(--g); margin: .5rem 0 1rem;
+}
+.contact-inner{
+  max-width:1280px; margin:0 auto; display:flex; gap:8px; flex-wrap:wrap; justify-content:center;
+}
+
 .video {
   position: relative; width: 100%;
   aspect-ratio: 16/9; 
