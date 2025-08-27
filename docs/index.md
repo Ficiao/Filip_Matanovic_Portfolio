@@ -241,3 +241,16 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 </div>
 </div>
+
+<div id="contact" class="contact-bar fullbleed contact-inner">
+<button type="button"
+        class="linklike js-copy"
+        data-copy="filipmtvn@gmail.com"
+        aria-label="Copy email to clipboard">
+  filipmtvn@gmail.com
+</button>
+<span class="copy-msg" aria-live="polite"></span>
+    <a href="https://www.linkedin.com/in/filip-matanovi%C4%87-43503b235/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/Ficiao" target="_blank" rel="noopener">GitHub</a>
+    <a href="cv_fm.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+</div>
