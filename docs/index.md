@@ -54,7 +54,7 @@
   padding: 0;
   font: inherit;
   color: #0969da;           
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 .linklike:hover{text-decoration: underline;}
