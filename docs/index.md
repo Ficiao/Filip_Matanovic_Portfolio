@@ -21,7 +21,7 @@
   .projects{ grid-template-columns: repeat(3, 1fr); }
 }
   
-.card{border:1px solid #d0d7de; border-radius:10px; padding:14px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+.card{display:flex; flex-direction:column; border:1px solid #d0d7de; border-radius:10px; padding:14px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.06); }
   
 .card h3 { margin-top: 0; margin-bottom: 0; }
 
@@ -38,6 +38,9 @@
   aspect-ratio: 16/9; 
   overflow: hidden; border-radius: 8px;
 }
+
+.card .video{ margin-top:auto; }
+  
 .video iframe {
   position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
 }
