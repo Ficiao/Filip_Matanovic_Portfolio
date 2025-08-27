@@ -54,10 +54,10 @@
   <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
-    <a class="btn btn--primary" href="mailto:filipmtvn@gmail.com?subject=Portfolio%20enquiry">Email</a>
-    <a class="btn" href="https://www.linkedin.com/in/filip-matanovi%C4%87-43503b235/" target="_blank" rel="noopener">LinkedIn</a>
-    <a class="btn" href="https://github.com/Ficiao" target="_blank" rel="noopener">GitHub</a>
-    <a class="btn" href="cv_fm.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+    <a href="mailto:filipmtvn@gmail.com?subject=Portfolio%20enquiry">Email</a>
+    <a href="https://www.linkedin.com/in/filip-matanovi%C4%87-43503b235/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/Ficiao" target="_blank" rel="noopener">GitHub</a>
+    <a href="cv_fm.pdf" target="_blank" rel="noopener">CV (PDF)</a>
 </div>
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
