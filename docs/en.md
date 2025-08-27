@@ -1,7 +1,5 @@
 <a href="index.html" style="padding:6px 12px; border:1px solid #333; border-radius:4px; text-decoration:none;">🇭🇷 HR</a>
 <a href="en.html" style="padding:6px 12px; border:1px solid #333; border-radius:4px; text-decoration:none;">🇬🇧 EN</a>
-# Portfolio
-
 Disclaimer: Project headlines are also links to project git repositories. If the nature of the project doesn't require a repository or if I am for some other reasons not allowed to share the code publicly, the link will be missing.
 
 <style>
