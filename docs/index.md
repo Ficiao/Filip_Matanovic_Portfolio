@@ -48,24 +48,30 @@
 .btn--primary:hover{background:#e2e8f0; color:#111; border-color:#333;}
 .btn-group{display:flex; gap:8px; flex-wrap:wrap;}
 
-  .linklike{
-  background: none;
-  border: 0;
-  padding: 0;
-  font: inherit;
-  color: #0969da;           
-  text-decoration: none;
-  cursor: pointer;
+.linklike{
+  display:inline;          
+  margin:0;              
+  padding:0;
+  border:0;
+  background:transparent;
+  font:inherit;
+  color:inherit;          
+  text-decoration:underline;
+  vertical-align:baseline;
+  line-height:inherit;
+  -webkit-appearance:none;
+  appearance:none;
 }
-.linklike:hover{text-decoration: underline;}
-.linklike:focus{outline: 2px solid #60a5fa; outline-offset: 2px;}
 
-.copy-msg{ margin-left: 8px; font-size: .95em; }
+button.linklike{ margin:0 !important; }
+
+.copy-msg{ margin-left:0; }
+.copy-msg:not(:empty){ margin-left:8px; }
 </style>
 
 <script>
 (function(){
-  var TEXT_TO_COPY = 'tvoje.ime@domena.com';
+  var TEXT_TO_COPY = 'filipmtvn@gmail.com';
 
   document.addEventListener('click', function(e){
     var el = e.target.closest('.js-copy');
