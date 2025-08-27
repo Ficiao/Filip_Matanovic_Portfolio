@@ -49,20 +49,26 @@
 .btn-group{display:flex; gap:8px; flex-wrap:wrap;}
 
 .linklike{
+  background: none;
   display:inline;          
   margin:0;              
   padding:0;
   border:0;
   background:transparent;
   font:inherit;
-  color:inherit;          
-  text-decoration:underline;
+  color: #0969da;       
+  text-decoration: none;
   vertical-align:baseline;
   line-height:inherit;
   -webkit-appearance:none;
   appearance:none;
+  cursor: pointer;
 }
-
+  
+.linklike:hover{text-decoration: underline;} 
+  
+.linklike:focus{outline: 2px solid #60a5fa; outline-offset: 2px;}
+  
 button.linklike{ margin:0 !important; }
 
 .copy-msg{ margin-left:0; }
