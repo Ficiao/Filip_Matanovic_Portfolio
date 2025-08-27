@@ -65,35 +65,30 @@
 
 <script>
 (function(){
-  function copyToClipboard(text){
+  var TEXT_TO_COPY = 'tvoje.ime@domena.com';
+
+  document.addEventListener('click', function(e){
+    var el = e.target.closest('.js-copy');
+    if(!el) return;
+    e.preventDefault();
+
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      return navigator.clipboard.writeText(text);
-    }
-    return new Promise(function(resolve){
-      var ta = document.createElement('textarea');
-      ta.value = text; ta.setAttribute('readonly','');
-      ta.style.position = 'absolute'; ta.style.left = '-9999px';
+      navigator.clipboard.writeText(TEXT_TO_COPY);
+    } else {
+      var ta=document.createElement('textarea');
+      ta.value=TEXT_TO_COPY; ta.setAttribute('readonly','');
+      ta.style.position='absolute'; ta.style.left='-9999px';
       document.body.appendChild(ta); ta.select();
       try{ document.execCommand('copy'); }catch(e){}
-      document.body.removeChild(ta); resolve();
-    });
-  }
+      document.body.removeChild(ta);
+    }
 
-  document.querySelectorAll('.js-copy-btn').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      var text = btn.dataset.copy || btn.textContent.trim();
-      copyToClipboard(text).then(function(){
-        var msg = btn.nextElementSibling;
-        if (!msg || !msg.classList.contains('copy-msg')) {
-          msg = document.createElement('span');
-          msg.className = 'copy-msg';
-          btn.insertAdjacentElement('afterend', msg);
-        }
-        clearTimeout(btn._t);
-        msg.textContent = ' Copied to clipboard';
-        btn._t = setTimeout(function(){ msg.textContent = ''; }, 1400);
-      });
-    });
+    var msg = el.nextElementSibling;
+    if (msg && msg.classList.contains('copy-msg')) {
+      clearTimeout(el._t);
+      msg.textContent = ' Copied to clipboard';
+      el._t = setTimeout(function(){ msg.textContent=''; }, 1400);
+    }
   });
 })();
 </script>
@@ -104,7 +99,7 @@
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
 <button type="button"
-        class="linklike js-copy-btn"
+        class="linklike js-copy"
         data-copy="filipmtvn@gmail.com"
         aria-label="Copy email to clipboard">
   filipmtvn@gmail.com
