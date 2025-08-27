@@ -1,7 +1,11 @@
-<a href="index.html" style="padding:6px 12px; border:1px solid #333; border-radius:4px; text-decoration:none;">🇭🇷 HR</a>
-<a href="en.html" style="padding:6px 12px; border:1px solid #333; border-radius:4px; text-decoration:none;">🇬🇧 EN</a>
-# Portfolio
-Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
+<div id="contact" class="contact-bar fullbleed">
+  <div class="contact-inner">
+    <a class="btn btn--primary" href="mailto:tvoje.ime@domena.com?subject=Portfolio%20enquiry">Email</a>
+    <a class="btn" href="https://www.linkedin.com/in/tvoj-handle/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/tvoj-github" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+  </div>
+</div>
 
 <style>
 :root{ --g: 20px; }
@@ -13,6 +17,14 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
   width: 100vw;
   max-width: 100vw;
   box-sizing: border-box;
+}
+
+.contact-bar.fullbleed{
+  position: relative; left:50%; transform:translateX(-50%);
+  width:100vw; box-sizing:border-box; padding:0 var(--g); margin: .5rem 0 1rem;
+}
+.contact-inner{
+  max-width:1280px; margin:0 auto; display:flex; gap:8px; flex-wrap:wrap; justify-content:center;
 }
 
 .projects{
@@ -39,6 +51,11 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
   position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
 }
 </style>
+
+<a href="index.html" style="padding:6px 12px; border:1px solid #333; border-radius:4px; text-decoration:none;">🇭🇷 HR</a>
+<a href="en.html" style="padding:6px 12px; border:1px solid #333; border-radius:4px; text-decoration:none;">🇬🇧 EN</a>
+<br><br>
+Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
 <div class="projects fullbleed">
 
