@@ -1,10 +1,8 @@
-<div id="contact" class="contact-bar fullbleed">
-  <div class="contact-inner">
+<div id="contact" class="contact-bar fullbleed contact-inner">
     <a class="btn btn--primary" href="mailto:tvoje.ime@domena.com?subject=Portfolio%20enquiry">Email</a>
     <a class="btn" href="https://www.linkedin.com/in/tvoj-handle/" target="_blank" rel="noopener">LinkedIn</a>
     <a class="btn" href="https://github.com/tvoj-github" target="_blank" rel="noopener">GitHub</a>
     <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
-  </div>
 </div>
 
 <style>
