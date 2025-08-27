@@ -42,7 +42,7 @@
 </style>
 
 <div class="btn-group">
-  <a href="index.html" class="btn">🇭🇷 HR</a>
+  <a href="index.html" class="btn btn--primary">🇭🇷 HR</a>
   <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
 </div>
 <br>
