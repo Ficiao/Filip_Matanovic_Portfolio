@@ -5,32 +5,27 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 
 <style>
 .fullbleed{
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  padding-inline: 24px; 
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;       
+  max-width: 100vw;
+  padding-left: 24px;     
+  padding-right: 24px;
 }
 
 .projects{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap:20px;
-  margin:1rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 20px;
+  margin: 1rem 0;
 }
-@media (min-width: 1100px){
+
+@media (min-width: 1200px){
   .projects{ grid-template-columns: repeat(3, 1fr); }
 }
 
-@media (min-width: 1400px){
-  .projects{ max-width:1280px; margin-inline:auto; }
-}
-
-.card {
-  border: 1px solid #d0d7de;
-  border-radius: 10px;
-  padding: 14px;
-  background: #fff;
-  box-shadow: 0 1px 3px rgba(0,0,0,.06);
-}
+.card{ border:1px solid #d0d7de; border-radius:10px; padding:14px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.06); }
   
 .card h3 { margin-top: 0; margin-bottom: 0; }
 
