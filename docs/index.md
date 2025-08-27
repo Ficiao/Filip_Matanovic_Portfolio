@@ -73,7 +73,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 
   <div class="card" markdown="1">
-## [Igra šah u 3D-u](https://github.com/Ficiao/Chess3D)
+## [Igra šaha u 3D-u](https://github.com/Ficiao/Chess3D)
 * Igra šaha u 3D-u za lokalno dva igrača
 * Logika igre, potezi, upravljanje figurama
 * Sistem spremanja igara, te ponovnog izvođenja snimaka
