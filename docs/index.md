@@ -53,8 +53,12 @@
   <a href="index.html" class="btn btn--primary">🇭🇷 HR</a>
   <a href="en.html" class="btn">🇬🇧 EN</a>
 </div>
-<br>
-<br>
+<div id="contact" class="contact-bar fullbleed contact-inner">
+    <a class="btn btn--primary" href="mailto:tvoje.ime@domena.com?subject=Portfolio%20enquiry">Email</a>
+    <a class="btn" href="https://www.linkedin.com/in/tvoj-handle/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/tvoj-github" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+</div>
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
 <div class="projects fullbleed">
