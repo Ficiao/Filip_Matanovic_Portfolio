@@ -1,5 +1,6 @@
-<link rel="shortcut icon" type="images/x-icon" href="image/favicon.ico?">
-<style>
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+</head><style>
 :root{ --g: 20px; }
   
 .fullbleed{
