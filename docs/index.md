@@ -1,3 +1,4 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <style>
 :root{ --g: 20px; }
   
