@@ -2,22 +2,39 @@
 :root{ --g: 20px; }
   
 .fullbleed{
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  max-width: 100vw;
-  box-sizing: border-box;
+  width:100%;
+  max-width:100%;
+  left:auto;
+  transform:none;
+  box-sizing:border-box;
+  padding-inline: var(--g);
 }
 
 .projects{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  display:grid;
+  grid-template-columns: 1fr;         
   gap: var(--g);
-  padding: var(--g);         
-  margin: 1rem 0;
+  padding-block: var(--g);
+  padding-inline: 0;               
+  box-sizing:border-box;
 }
-@media (min-width: 1200px){
+  
+@media (min-width:700px){
+  .fullbleed{
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:100vw;                     
+    max-width:100vw;
+    padding-inline: var(--g);
+  }
+  .projects{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-inline: var(--g);
+  }
+}
+
+@media (min-width:1200px){
   .projects{ grid-template-columns: repeat(3, 1fr); }
 }
   
