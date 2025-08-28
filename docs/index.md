@@ -1,4 +1,4 @@
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico?v=2">
 <style>
 :root{ --g: 20px; }
   
