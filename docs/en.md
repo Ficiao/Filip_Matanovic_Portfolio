@@ -119,6 +119,18 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
+## [Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
+* Making a horde mode level
+* Using object pool pattern to optimize many objects being destroyed and spawned each second
+* Number at the top represents the number of killed enemies
+* Assets are downloaded from Unity store
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+  <div class="card" markdown="1">
 ## [Vertical slice of platformer game]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
 * Simple platformer game
 * Game contains two level: boss rush and a platformer level
@@ -129,18 +141,6 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 <br>
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ol4w9KW0r_0?si=_Z-_JXD6RVpH9J73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-
-  <div class="card" markdown="1">
-## [Horde rush level development for practicing optimization patterns](https://github.com/Ficiao/ObjectPoolingHorde)
-* Making a horde mode level
-* Using object pool pattern to optimize many objects being destroyed and spawned each second
-* Number at the top represents the number of killed enemies
-* Assets are downloaded from Unity store
-
-<div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
