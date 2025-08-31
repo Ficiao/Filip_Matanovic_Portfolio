@@ -78,7 +78,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 * U sklopu projekta objavljena dva znanstvena rada: 
     - L. Brzica, F. Matanović, S. Vlahović, N. Pavlin Bernardić, L. Skorin-Kapov, "Analysis of User Experience and Task Performance in a Multi-User Cross-Reality Virtual Object Manipulation Task," Proceedings of the 17th International Workshop on IMmersive Mixed and Virtual Environment Systems (MMVE '25), Stellenbosch, South Africa, April 2025. DOI: 10.1145/3712677.3720461
     - M. Paladin, L. Brzica, F. Matanovic, D. Kljajic, L. Skorin-Kapov, "QoE and Task Performance Assessment of Mobile Robot Teleoperation via a VR-based Interface," to appear in Proceedings of the 17th International Conference on Quality of Multimedia Experience, October 2025.
-* (Video projekta trenutno nedostupan jer je projekt ongoing)
+* (Video projekta trenutačno nedostupan jer je projekt ongoing)
 </div>
 
   <div class="card" markdown="1">
