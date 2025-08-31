@@ -60,10 +60,10 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 
   <div class="card" markdown="1">
 ## Rad na igri Phageborn
-* Unity developer na igri Phageborn hrvatske firme GamesRevolted
+* Unity developer na igri Phageborn hrvatske firme Games Revolted
 * Rad na raznim gameplay bug fixovima
-* Implementacija prerade raznih UI izbornika: main menu, card coolection menu, hero armory menu, shop i battlepass menus,...
-* Zadužen kao glavna osoba za razvoj in i out of engine alata za ubrzavanje razvoja, poput alata za izradu shop itema, battlepassova, in-game news, itd. bez botrebe za programiranjem od strane stvaratelja
+* Implementacija prerade raznih UI izbornika: main menu, card collection menu, hero armory menu, shop i battlepass menus,...
+* Zadužen kao glavna osoba za razvoj in i out of engine alata za ubrzavanje razvoja, poput alata za izradu shop itema, battlepassova, in-game newsa, itd. bez potrebe za programiranjem od strane stvaratelja
 
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BjbJCKG8UeE?si=IqHG8JHpr0onViVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -72,7 +72,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 
   <div class="card" markdown="1">
 ## [Rad na projektu Digiphy](https://www.fer.unizg.hr/digiphy)
-* Rad kao istraživač na europskom projektu Digophy 
+* Rad kao istraživač na europskom projektu Digiphy 
 * Rad kao glavni programer razvoja prototipova za provođenje korisničkih studija
 * Fokus na umrežena AR i VR iskustva u digitalnom blizancu (AR korisnik u stvarnom prostoru, VR korisnik u digitalnoj replici istog prostora, njihova kolociranost i interakcija)
 * U sklopu projekta objavljena dva znanstvena rada: 
@@ -110,7 +110,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 
   <div class="card" markdown="1">
 ## Izrada levela za postojeći simulator leta dronom i novi način letenja
-* Dizajniranje i izrada jungle levela za već postojeći flight simulator
+* Dizajniranje i izrada jungle levela za već postojeći flight simulator hrvatske tvrtke Orqa
 * Dodavanja novog načina leta gdje dron održava visinu dok igrač ne zadaje nikakve naredbe, dok bi inače padao
 * Modeliranje piramide, balvana i stijene u Blenderu, preostali asseti su preuzeti s Unity stora
 
