@@ -59,6 +59,29 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
+## Rad na igri Phageborn
+* Unity developer na igri Phageborn hrvatske firme GamesRevolted
+* Rad na raznim gameplay bug fixovima
+* Implementacija prerade raznih UI izbornika: main menu, card coolection menu, hero armory menu, shop i battlepass menus,...
+* Zadužen kao glavna osoba za razvoj in i out of engine alata za ubrzavanje razvoja, poput alata za izradu shop itema, battlepassova, in-game news, itd. bez botrebe za programiranjem od strane stvaratelja
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BjbJCKG8UeE?si=IqHG8JHpr0onViVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+
+  <div class="card" markdown="1">
+## [Rad na projektu Digiphy](https://www.fer.unizg.hr/digiphy)
+* Rad kao istraživač na europskom projektu Digophy 
+* Rad kao glavni programer razvoja prototipova za provođenje korisničkih studija
+* Fokus na umrežena AR i VR iskustva u digitalnom blizancu (AR korisnik u stvarnom prostoru, VR korisnik u digitalnoj replici istog prostora, njihova kolociranost i interakcija)
+* U sklopu projekta objavljena dva znanstvena rada: 
+    - L. Brzica, F. Matanović, S. Vlahović, N. Pavlin Bernardić, L. Skorin-Kapov, "Analysis of User Experience and Task Performance in a Multi-User Cross-Reality Virtual Object Manipulation Task," Proceedings of the 17th International Workshop on IMmersive Mixed and Virtual Environment Systems (MMVE '25), Stellenbosch, South Africa, April 2025. DOI: 10.1145/3712677.3720461
+    - M. Paladin, L. Brzica, F. Matanovic, D. Kljajic, L. Skorin-Kapov, "QoE and Task Performance Assessment of Mobile Robot Teleoperation via a VR-based Interface," to appear in Proceedings of the 17th International Conference on Quality of Multimedia Experience, October 2025.
+* (Video projekta trenutno nedostupan jer je projekt ongoing)
+</div>
+
+  <div class="card" markdown="1">
 ## [Unity robot simulation for online bin picking and sorting](https://github.com/Ficiao/RobotBinSimulator)
 * Simulation of inverse kinematics robot hand
 * Created a conveyor belt that is bringing objects of random dimensions and hardness
@@ -87,7 +110,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 
   <div class="card" markdown="1">
 ## Level creation for an existing drone flight simulator and a new flight mode
-* Designing and developing a jungle level for an already existing drone flight simulator
+* Designing and developing a jungle level for an already existing drone flight simulator from the works of a croatian company Orqa
 * Adding new flight mode where drone keeps its altitude while the user isn't giving any inputs, as opposed to free falling
 * Modeling the pyramid, the log and the rock in Blender, the rest of the assets were downloaded from Unity store
 
