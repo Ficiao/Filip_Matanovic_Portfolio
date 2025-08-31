@@ -1,5 +1,5 @@
 <div class="btn-group">
-  <a href="" class="btn btn--primary">🇭🇷 HR</a>
+  <a href="/" class="btn btn--primary">🇭🇷 HR</a>
   <a href="en.html" class="btn">🇬🇧 EN</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
