@@ -12,7 +12,6 @@
 <span class="copy-msg" aria-live="polite"></span>
     <a href="https://www.linkedin.com/in/filip-matanovi%C4%87-43503b235/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://github.com/Ficiao" target="_blank" rel="noopener">GitHub</a>
-    <a href="cv_fm.pdf" target="_blank" rel="noopener">CV (PDF)</a>
 </div>
 Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata. Ako priroda projekta ne zahtijeva repozitorij ili mi iz drugih razloga nije dopušteno javno dijeljenje koda, poveznice neće biti.
 
