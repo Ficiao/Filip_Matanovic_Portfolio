@@ -119,6 +119,18 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 
   <div class="card" markdown="1">
+## [Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
+* Izrada horde rush levela
+* Korištenje object pool patterna za optimizaciju stvaranja i uništavanja velikog broja objekata svake sekunde
+* Broj na vrhu je broj ubijenih protivnika
+* Asseti su preuzeti s Unity stora
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+  <div class="card" markdown="1">
 ## [Vertical slice platformerske igre]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
 * Jednostavna platformerska igra
 * Igra sadrži dvije razine: boss rush i platformsku razinu
@@ -129,18 +141,6 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 <br>
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ol4w9KW0r_0?si=_Z-_JXD6RVpH9J73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-
-  <div class="card" markdown="1">
-## [Izrada horde rush levela za vježbanje optimizacijskih patterna](https://github.com/Ficiao/ObjectPoolingHorde)
-* Izrada horde rush levela
-* Korištenje object pool patterna za optimizaciju stvaranja i uništavanja velikog broja objekata svake sekunde
-* Broj na vrhu je broj ubijenih protivnika
-* Asseti su preuzeti s Unity stora
-
-<div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R1tz9gZrJkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
