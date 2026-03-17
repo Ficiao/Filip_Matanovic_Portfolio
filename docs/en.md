@@ -156,6 +156,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 </div>
 
+  <div class="card" markdown="1">
 ## Kingdoms & Lairs MMO Demo
 * Current Project
 * MMO RPG with custom netcode
@@ -165,6 +166,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 </div>
 
+  <div class="card" markdown="1">
 ## Aquariums :)
 
 <div class="video">
