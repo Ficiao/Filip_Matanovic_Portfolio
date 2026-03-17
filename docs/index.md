@@ -156,6 +156,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 </div>
 
+  <div class="card" markdown="1">
 ## Kingdoms & Lairs MMO Demo
 * Trenutni projekt 
 * MMO RPG sa custom netcodeom
@@ -165,6 +166,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 </div>
 
+  <div class="card" markdown="1">
 ## Akvariji :)
 
 <div class="video">
