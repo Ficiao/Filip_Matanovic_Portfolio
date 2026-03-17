@@ -155,6 +155,28 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrVs29Q25zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
+
+## Kingdoms & Lairs MMO Demo
+* Current Project
+* MMO RPG with custom netcode
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWM7ZN9JOLA?si=nTEnOLdvw15tTXNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+
+## Aquariums :)
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QSnEuV1paZQ?si=Mw1wjqrQAfv-Y_tm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VNS51BXGS0o?si=0i5Dl8BWEiA6HbYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHKh98SnamM?si=-y8QM1ReEB_qKVug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
 </div>
 
 <div id="contact" class="contact-bar fullbleed contact-inner">
