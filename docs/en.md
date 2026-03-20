@@ -58,7 +58,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## Rad na igri Phageborn
+## Working on Phageborn
 * Unity developer on the game Phageborn by the Croatian company Games Revolted
 * Work on various gameplay bug fixes
 * Implementation of various UI menu reworks: main menu, card collection menu, hero armory menu, shop and battlepass menus, ...
@@ -70,7 +70,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Rad na projektu Digiphy](https://www.fer.unizg.hr/digiphy)
+## [Working on Digiphy project](https://www.fer.unizg.hr/digiphy)
 * Working as a researcher on the EU project Digiphy
 * Work as the main developer of prototypes for conducting user studies
 * Focus on networked AR and VR experiences in a digital twin (AR user in a real space, VR user in a digital replica of the same space, their colocation and interaction)
@@ -138,7 +138,6 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xnxrvbYkP3I?si=U9d1jjG1ETDVBLlB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ol4w9KW0r_0?si=_Z-_JXD6RVpH9J73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
