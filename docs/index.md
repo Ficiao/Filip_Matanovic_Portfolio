@@ -18,6 +18,16 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 <div class="projects fullbleed">
 
   <div class="card" markdown="1">
+## Kingdoms & Lairs MMO Demo
+* Trenutni projekt 
+* MMO RPG sa custom netcodeom
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWM7ZN9JOLA?si=nTEnOLdvw15tTXNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+
+  <div class="card" markdown="1">
 ## [Prototip MMO igre sa vlastitim netcode-om, klijentskim predviđanjem, serverskom pomirdbom i interpolacijom objekata](https://github.com/Ficiao/KnjiznicarLinks)
 * Napravljena je klijentska aplikacija igre, te serverske aplikacije za login server, overworld server i instance
 * Izrađen je vlasititi protokol za komunikaciju preko TCP-a i UDP-a
@@ -152,16 +162,6 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrVs29Q25zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-
-  <div class="card" markdown="1">
-## Kingdoms & Lairs MMO Demo
-* Trenutni projekt 
-* MMO RPG sa custom netcodeom
-
-<div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gWM7ZN9JOLA?si=nTEnOLdvw15tTXNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </div>
 
