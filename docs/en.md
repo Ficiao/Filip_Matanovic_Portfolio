@@ -16,6 +16,16 @@
 Disclaimer: Project headlines are also links to project git repositories. If the nature of the project doesn't require a repository or if I am for some other reasons not allowed to share the code publicly, the link will be missing.
 
 <div class="projects fullbleed">
+  
+  <div class="card" markdown="1">
+## Kingdoms & Lairs MMO Demo
+* Current Project
+* MMO RPG with custom netcode
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWM7ZN9JOLA?si=nTEnOLdvw15tTXNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
 
   <div class="card" markdown="1">
 ## [MMO vertical slice with custom netcode, client side prediction, server reconciliation and entity interpolation](https://github.com/Ficiao/KnjiznicarLinks)
@@ -152,16 +162,6 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrVs29Q25zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-
-  <div class="card" markdown="1">
-## Kingdoms & Lairs MMO Demo
-* Current Project
-* MMO RPG with custom netcode
-
-<div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gWM7ZN9JOLA?si=nTEnOLdvw15tTXNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </div>
 
