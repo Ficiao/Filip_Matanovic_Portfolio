@@ -1,6 +1,6 @@
 <div class="btn-group">
-  <a href="/" class="btn">🇭🇷 HR</a>
-  <a href="en.html" class="btn btn--primary">🇬🇧 EN</a>
+  <a href="/" class="btn">🇬🇧 EN</a>
+  <a href="hr.html" class="btn btn--primary">🇭🇷 HR</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
 <button type="button"
