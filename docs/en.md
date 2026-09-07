@@ -131,7 +131,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 </div>
 
   <div class="card" markdown="1">
-## [Vertical slice of platformer game]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
+## [Vertical slice of platformer game](https://github.com/Ficiao/WiaP-Head-in-the-Clouds)
 * Simple platformer game
 * Game contains two level: boss rush and a platformer level
 
