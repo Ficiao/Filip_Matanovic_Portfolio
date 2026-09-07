@@ -1,6 +1,6 @@
 <div class="btn-group">
-  <a href="/" class="btn btn--primary">🇭🇷 HR</a>
-  <a href="en.html" class="btn">🇬🇧 EN</a>
+  <a href="/" class="btn btn--primary">🇬🇧 EN</a>
+  <a href="hr.html" class="btn">🇭🇷 HR</a>
 </div>
 <div id="contact" class="contact-bar fullbleed contact-inner">
 <button type="button"
@@ -20,12 +20,12 @@ Disclaimer: Project headlines are also links to project git repositories. If the
   <div class="card" markdown="1">
 ## [MMO vertical slice with custom netcode, client side prediction, server reconciliation and entity interpolation](https://github.com/Ficiao/KnjiznicarLinks)
 * The client application of the game, as well as server applications for the login server, overworld server and instances were created
-* Custom cummunication protocol via TCP and UDP was developed
+* Custom communication protocol via TCP and UDP was developed
 * Game assets have been created
 * The gameloop of movement in the world and entering PvP and PvE matches was created
 * Match gameloop was created where the player combines words from random sixteen letters that are offered to him and does damage depending on the length of the word
 * The game also features PvP and PvE leaderboards
-* Laucher was made for the game, that keeps the game updated and shows patchnotes and version
+* Launcher was made for the game, that keeps the game updated and shows patchnotes and version
 
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tTIj7t3eByw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -100,7 +100,7 @@ Disclaimer: Project headlines are also links to project git repositories. If the
 * Created a local 2 player Tetris game in Unity
 * I have made necessary assets in Aseprite
 * All game mechanics were implemented according to Tetris official standards
-* Currently in development: online multiplayer version of the game for lobby's of up to 9 players over a dedicated server, as well as writing the costume dedicated server using TCP and UDP sockets
+* Currently in development: online multiplayer version of the game for lobby's of up to 9 players over a dedicated server, as well as writing the custom dedicated server using TCP and UDP sockets
 
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xVry_iacmUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
