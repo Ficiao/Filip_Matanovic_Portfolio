@@ -131,7 +131,7 @@ Napomena: Naslovi projekata su ujedno i poveznice na git repositorije projekata.
 </div>
 
   <div class="card" markdown="1">
-## [Vertical slice platformerske igre]([https://github.com/Ficiao/ObjectPoolingHorde](https://github.com/Ficiao/WiaP-Head-in-the-Clouds))
+## [Vertical slice platformerske igre](https://github.com/Ficiao/WiaP-Head-in-the-Clouds)
 * Jednostavna platformerska igra
 * Igra sadrži dvije razine: boss rush i platformsku razinu
 
